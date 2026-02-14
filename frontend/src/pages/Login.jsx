@@ -23,7 +23,7 @@ const handleLogin = async (e) => {
   }
 
   try {
-    const response = await fetch("http://localhost:8080/auth/login", {
+    const response = await fetch("https://deploy-mern-app-delta.vercel.app/auth/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
